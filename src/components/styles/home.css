@@ -1,0 +1,72 @@
+.home-container{
+   /*min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.719)*/
+    min-height: 100vh;
+    background-color: rgba(255, 0, 0, 0.719);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+    
+
+  }
+  
+  .cardd{
+  
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 100% );
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 0 #000b;
+    position: relative;
+  
+  }
+
+.cardd .pic-cont{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    box-shadow: 0 .25rem .5rem hsl(0, 0%, .3);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.pic{
+    width: 100%;
+    animation-name: girarb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girarb{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.input-home{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.145);
+    border-color: rgba(128, 128, 128, 0.052);
+}
+
+.button-catch{
+    border-radius: 10px;
+    color: azure;
+    background: linear-gradient(176.37deg, #a42b2d -32.26%, #E35825 22.55%, #e8ae1b 125.72%);
+    border-color: #a42b2d21;
+    margin-left: 10px;
+    
+}

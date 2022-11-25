@@ -1,0 +1,9 @@
+.pagination-box{
+margin: 20px 0;
+}
+
+.pagination-numbers{
+    background-color: transparent;
+    border: none;
+    display:inline-block
+}
